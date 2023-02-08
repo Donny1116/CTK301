@@ -1,0 +1,24 @@
+h1 {       
+    color:crimson;
+    background-color: green;
+}
+
+.bluetext{
+    color: #0000FF;
+}
+
+#greenid{
+    color: green;
+    background-color: #0000FF
+}
+
+a {
+    color: red;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
