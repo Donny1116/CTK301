@@ -1,0 +1,56 @@
+p {
+   color: darkgray; 
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:visited{
+    color: green;
+}
+
+#firstid{
+    color: aqua;
+}
+
+.firstp{
+    color: blueviolet;
+    background-color: bisque;
+}
+
+.secondp{
+    color: yellowgreen;
+}
+
+.divexample{
+    background-color: orangered;
+     color: black;
+}
+
+.spanstyle{
+    color: goldenrod;
+}
+
+#greenid{
+    color: brown;
+    background-color: orange;
+}
+
+.purpletext{
+    color: purple;
+}
+
+.lavendertext{
+    color: lightsalmon;
+    background-color: lightgreen;
+}
+
+#firsttitle{
+    color: teal;
+    background-color: aquamarine;
+}
