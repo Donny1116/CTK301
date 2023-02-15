@@ -1,0 +1,33 @@
+a {
+    color:green;
+    text-decoration: none;
+}
+
+#id1{
+    background-color: lightskyblue;
+}
+
+.firstclass{
+    color: white;
+}
+
+.secondclass{
+    color: blue;
+}
+
+.firstspan{
+    color: orange;
+}
+
+.thirdclass{
+    background-color: yellow;
+}
+
+.fourthclass{
+    color: red;
+}
+
+.fifthclass{
+    color: yellow;
+    background-color: green;
+}
