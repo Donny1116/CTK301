@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background-image: url(page2\ pictures.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+p {
+    color: brown; 
+    text-align: center;
+ }
+ 
+h1{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+ a{
+     color: red;
+ }
+ 
+ a:hover{
+     color: yellow;
+ }
+ 
+ a:visited{
+     color: green;
+ }
+ 
+ #firstid{
+     color: aqua;
+ }
+ 
+ .justify {
+    text-align: justify;
+}
+
+
+ .firstp{
+     background-color: bisque;
+ }
+ 
+ .secondp{
+     color: yellowgreen;
+ }
+ 
+ .divexample{
+     background-color: orangered;
+      color: black;
+ }
+ 
+ .spanstyle{
+     color: goldenrod;
+ }
+ 
+ #greenid{
+     background-color: limegreen;
+ }
+ 
+ .lavendertext{
+     color: lightsalmon;
+     background-color: lightgreen;
+ }
+ 
+ #firsttitle{
+     background-color: aquamarine;
+ }
+
+ .imgbox {
+    border: 15px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
