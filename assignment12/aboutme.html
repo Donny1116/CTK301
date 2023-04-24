@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Front Page</title>
+	<link href="aboutme.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+            <h1>Creations!</h1>
+		</header>
+
+		<nav>
+			<ul>
+			  <li><a href="https://creativetech.dev/CTK301/setup.html" target="_blank">Main Page</a></li>
+			  <li><a href="https://creativetech.dev/CTK301/BasicHTML.html" target="_blank">Video Page</a></li>
+			  <li><a href="https://creativetech.dev/CTK301/BasicHTMLContinued.html" target="_blank">About Me!</a></li>
+			</ul>
+		</nav>
+
+		<main>
+           
+		</main>
+		<div class="f-carousel" id="myCarousel">
+			<div class="f-carousel__slide"><img src="Creations1.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="Creations 2.png" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="Creations3.jpg" alt="patch"></div>
+		</div>
+
+	</div>
+	<script>
+		Fancybox.bind("[data-fancybox]", {
+	  // Your custom options
+	  });
+	
+	  const container = document.getElementById("myCarousel");
+	  const options = { infinite: false };
+	
+	  new Carousel(container, options);
+	
+	
+	</script>
+	
+</body>
+</html>

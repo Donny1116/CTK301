@@ -1,0 +1,81 @@
+body {
+    background-color: darkgray;
+    background-image: url(CreationsBackground.png)
+  }
+  
+  #wrapper {
+    background-image: url(CreationsBackground.png);
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #eeefee;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-template-rows: repeat(4,1fr);
+  }
+
+  header{
+    grid-column: span 12;
+    color: white;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: none;
+    border: solid 4px white;
+    border-radius: 10px;
+    /*background-color: light red;
+    */
+}
+
+nav{
+  margin-top: 40px;
+    grid-column: span 12;
+    grid-row: span 2;
+    text-align: center;
+}
+  nav ul{
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 125px;
+    padding: 0;
+    color:white
+  }
+  
+  nav li {
+    border: 2px solid black;
+    width: 200px;
+    padding: 0px;
+    margin-bottom:  40px;
+    margin-right: 110px;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,132,161,1) 0%, rgba(17,128,236,1) 33%);
+    display: inline-block;
+    color: white;
+  }
+  
+  nav li a{
+    text-decoration: none;
+    color:aqua;
+    font-family: Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #myCarousel{
+    grid-column: span 12;
+    margin-left: 390px;
+    margin-bottom: 24px;
+    border: 3px solid black;
+    width: 400px;
+  }
+  
+  #myCarousel img {
+  width: 100%;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+  }
