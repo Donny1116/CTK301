@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  grid-template-rows: repeat(3,1fr);
+  /*grid-template-rows: repeat(3,1fr);*/
   background-color: darkred;
 }
 
@@ -34,13 +34,15 @@ header{
   font-weight: none;
   border: solid 4px black;
   margin-bottom: 70px;
-  margin-left: 250px;
-  margin-right: 200px;
+  margin-left: 20px;
+  margin-right: 400px;
   padding: 20px;
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom: 0px;
+  padding-top: 50px;
   background-color: #999999;
+  width: 85%;
 }
 
 nav{
@@ -64,14 +66,14 @@ nav li {
   padding: 0px;
   margin-bottom:  40px;
   margin-right: 2px;
-  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,132,161,1) 0%, rgba(17,128,236,1) 33%);
+  background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(231,231,231,1) 82%);
   display: inline-block;
   color: white;
 }
 
 nav li a{
   text-decoration: none;
-  color: aqua;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   display: block;
   padding: 20px;
@@ -81,14 +83,25 @@ nav li a{
 main{
   grid-column: span 9;
   text-align: center;
-  border: solid 4px black;
-  background-color: #999999;
-  margin: 30px;
-  padding: 0px;
-  margin-top:  80px; 
-  margin-left: 50px;
+  justify-items: center;
 }
 
 h2{
   text-decoration: underline solid 2px black;
+}
+
+.frontpic{
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+/*grid-row: 2;*/
+}
+
+.frontpic2{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+  /*grid-row: 3;*/
 }

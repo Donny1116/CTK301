@@ -29,42 +29,43 @@ body {
 }
 
 nav{
-  margin-top: 40px;
-    grid-column: span 12;
-    grid-row: span 2;
-    text-align: center;
+  grid-column: span 12;
+  grid-row: span 2;
+  text-align: center;
+  margin-top: 20px;
 }
-  nav ul{
-    list-style-type: none;
-    margin: 20px;
-    margin-left: 125px;
-    padding: 0;
-    color:white
-  }
-  
-  nav li {
-    border: 2px solid black;
-    width: 200px;
-    padding: 0px;
-    margin-bottom:  40px;
-    margin-right: 110px;
-    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(96,132,161,1) 0%, rgba(17,128,236,1) 33%);
-    display: inline-block;
-    color: white;
-  }
-  
-  nav li a{
-    text-decoration: none;
-    color:aqua;
-    font-family: Helvetica, Arial, sans-serif;
-    display: block;
-    padding: 20px;
-    margin: 20px;
-  }
+nav ul{
+  list-style-type: none;
+  margin: 20px;
+  margin-left: 125px;
+  padding: 0;
+  color:white
+}
+
+nav li {
+  border: 2px solid black;
+  width: 200px;
+  padding: 0px;
+  margin-bottom:  40px;
+  margin-right: 35px;
+  background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(231,231,231,1) 82%);
+  display: inline-block;
+  color: white;
+}
+
+nav li a{
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  display: block;
+  padding: 20px;
+  margin: 20px;
+}
 
   #myCarousel{
-    grid-column: span 12;
-    margin-left: 390px;
+    grid-column: span 4;
+    grid-row: row 3 ;
+    margin-left: 0px;
     margin-bottom: 24px;
     border: 3px solid black;
     width: 400px;
@@ -75,6 +76,44 @@ nav{
   }
   
   #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+  }
+
+  #myCarousel2{
+    grid-column: span 4;
+    grid-row: row 3;
+   margin-right: 2px;
+    margin-bottom: 24px;
+    border: 3px solid black;
+    width: 400px;
+  }
+  
+  #myCarousel2 img {
+  width: 100%;
+  }
+  
+  #myCarousel2 .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background: #eee;
+  }
+
+  #myCarousel3{
+    grid-column: span 4;
+    grid-row: row 3;
+   /*margin-right: 500px;*/
+    margin-bottom: 24px;
+    border: 3px solid black;
+    width: 400px;
+  }
+  
+  #myCarousel3 img {
+  width: 100%;
+  }
+  
+  #myCarousel3 .f-carousel__slide {
     text-align: center;
     padding: 24px;
     background: #eee;

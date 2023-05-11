@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Front Page</title>
+	<title>Creations</title>
 	<link href="aboutme.css" rel="stylesheet" type="text/css">
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
@@ -17,9 +17,10 @@
 
 		<nav>
 			<ul>
-				<li><a href="frontpage.html" target="_blank">Home Page</a></li>
-				<li><a href="videopage.html" target="_blank">Video Works</a></li>
-				<li><a href="aboutme.html" target="_blank">Collage of Works</a></li>
+				<li><a href="frontpage.html" >Home Page</a></li>
+              <li><a href="info.html" >About Me</a></li>
+			  <li><a href="videopage.html" >Video Works</a></li>
+			  <li><a href="aboutme.html" >Collage of Works</a></li>
 			</ul>
 		</nav>
 
@@ -27,9 +28,21 @@
            
 		</main>
 		<div class="f-carousel" id="myCarousel">
-			<div class="f-carousel__slide"><img src="Creations1.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="100 artists 1.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="Remix assignment for ctk.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="Creations3.jpg" alt="patch"></div>
+		</div>
+
+		<div class="f-carousel" id="myCarousel2">
+			<div class="f-carousel__slide"><img src="100 artists.jpg" alt="patch"></div>
 			<div class="f-carousel__slide"><img src="Creations 2.png" alt="patch"></div>
 			<div class="f-carousel__slide"><img src="Creations3.jpg" alt="patch"></div>
+		</div>
+
+		<div class="f-carousel" id="myCarousel3">
+			<div class="f-carousel__slide"><img src="Creations1.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="100 artists 2.jpg" alt="patch"></div>
+			<div class="f-carousel__slide"><img src="Act of vandalism.jpg" alt="patch"></div>
 		</div>
 
 	</div>
@@ -45,6 +58,32 @@
 	
 	
 	</script>
+
+<script>
+	Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  });
+
+  const container2 = document.getElementById("myCarousel2");
+  const options2 = { infinite: false };
+
+  new Carousel(container2, options2);
+
+
+</script>
+
+<script>
+	Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  });
+
+  const container3 = document.getElementById("myCarousel3");
+  const options3 = { infinite: false };
+
+  new Carousel(container3, options3);
+
+
+</script>
 	
 </body>
 </html>
